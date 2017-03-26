@@ -1,0 +1,50 @@
+body{
+    margin: 0;
+}
+
+.fullWindowHeight{
+    width: 100%;
+    
+   
+}
+
+
+
+
+
+
+/*-------------------------- MENU SECTION ------------------------------*/
+.menuContainer{
+   
+    height: 200px;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+}
+
+.menuContainer h1{
+    text-align: center;
+    font-weight: 300;
+    font-size: 50px;
+    border-bottom: 1px solid black;
+    padding-bottom: 5px;
+}
+
+.menuRow{
+    margin-top: 30px;
+    font-weight: 100;
+    font-size: 40px;
+    
+}
+
+.menuBoxBox{
+    width: 300px;
+    margin: 0 auto;
+    height: 70px;
+    background-color: #FFF8DC;
+    border: 1px solid black;
+}
+
+.menuBoxBox:hover{
+    font-weight: 300;
+    cursor: pointer;
+}
