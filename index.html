@@ -1,54 +1,80 @@
-
 <!doctype html>
 <html lang="en">
-    <head>
+
+<head>
     <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Zadanie 4 - usuwanie danych</title>
-    
-   
-<!-- jquery -->
-<script src="js/jquery.min.js"></script>
-<script src="js/script.js"></script>
-    
 
-<!-- bootstrap -->
-<script src="js/bootstrap.min.js"></script>  
 
-<!-- css -->
-<link href="css/bootstrap.min.css" type="text/css" rel="stylesheet">
-<link href="css/style.css" type="text/css" rel="stylesheet">
+    <!-- jquery -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/script.js"></script>
 
-<link href="https://fonts.googleapis.com/css?family=Lato:100,300,400" rel="stylesheet"> 
-    </head> 
-    
-    <body>
-    
-        <section class="fullWindowHeight" id="menu">
-            <div class="container menuContainer middleWindowHeigh">
-               
-                <div class="row">
-                    <div class="col-md-12"><h1>gabinet ginekologiczny - zgorzelec</h1></div>
+
+    <!-- bootstrap -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- css -->
+    <link href="css/bootstrap.min.css" type="text/css" rel="stylesheet">
+    <link href="css/style.css" type="text/css" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400" rel="stylesheet">
+</head>
+
+<body>
+
+    <section class="fullWindowHeight" id="menu">
+        <div class="container menuContainer middleWindowHeigh">
+            <div class="row">
+                <div class="col-md-12">
+                    <h1>gabinet ginekologiczny - zgorzelec</h1>
                 </div>
-                <div class="row menuRow">
-                   
-                    <div class="col-md-4 menuBox"><div class="menuBoxBox">oferta</div></div>
-                    <div class="col-md-4 menuBox"><div class="menuBoxBox">mapa dojazdu</div></div>
-                    <div class="col-md-4 menuBox"><div class="menuBoxBox">kontakt</div></div>
-                </div>   
-                    
             </div>
-            
-        </section>
-        
-        
-    
-        
-        
+            <div class="row menuRow">
+                <div class="col-md-4 menuBox">
+                    <div class="menuBoxBox">oferta</div>
+                </div>
+                <div class="col-md-4 menuBox">
+                    <div class="menuBoxBox">mapa dojazdu</div>
+                </div>
+                <div class="col-md-4 menuBox">
+                    <div class="menuBoxBox">kontakt</div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-        
-        
-    </body>
+    <section id="oferSection" class="fullWidth">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 oferBox"></div>
+                <div class="col-md-4 oferBox"></div>
+                <div class="col-md-4 oferBox"></div>
+            </div>
+        </div>
+    </section>
+
+    <sction id="mapSection" class="fullWidth">
+        <div id="mapLeft">
+           <div class="mapAdresHolder" id="mapAdresHeader"><h2>adres:</h2></div>
+           <div class="mapAdresHolder" id="mapAdres">
+               <p>ul. kościuszki 14</p>
+               <p>59-900 zgorzelec</p>
+           </div>
+            
+        </div>
+        <div id="mapRight"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2502.6478638041394!2d15.00333065075098!3d51.15184444435887!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4708dc16e65a3d9d%3A0x5eb7ba28554b3006!2sPawe%C5%82kiewicz+Czes%C5%82aw%2C+lek.+med.!5e0!3m2!1spl!2spl!4v1490553616283" width="100%" height="300px" frameborder="0" style="border:0" allowfullscreen></iframe></div>
+    </sction>
+    
+    <section id="contactSection" class="fullWidth">
+        blblblb
+    </section>
+
+
+
+
+</body>
+
 </html>

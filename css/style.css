@@ -1,27 +1,30 @@
-body{
-    margin: 0;
-}
-
-.fullWindowHeight{
-    width: 100%;
-    
+body, html {
    
+    margin: 0, 0;
+    padding: 0, 0;
+  
 }
 
+.fullWindowHeight {
+    width: 100%;
+    margin-top: 0px;
+}
 
+.fullWidth{
 
-
+    height: 300px;
+}
 
 
 /*-------------------------- MENU SECTION ------------------------------*/
-.menuContainer{
-   
+
+.menuContainer {
     height: 200px;
     text-align: center;
     font-family: 'Lato', sans-serif;
 }
 
-.menuContainer h1{
+.menuContainer h1 {
     text-align: center;
     font-weight: 300;
     font-size: 50px;
@@ -29,22 +32,77 @@ body{
     padding-bottom: 5px;
 }
 
-.menuRow{
+.menuRow {
     margin-top: 30px;
     font-weight: 100;
     font-size: 40px;
-    
 }
 
-.menuBoxBox{
+.menuBoxBox {
     width: 300px;
     margin: 0 auto;
-    height: 70px;
+    height: 150px;
     background-color: #FFF8DC;
     border: 1px solid black;
+    line-height: 150px;
 }
 
-.menuBoxBox:hover{
+.menuBoxBox:hover {
     font-weight: 300;
     cursor: pointer;
+}
+
+.middleWindowHeigh{
+    height: 200px;
+}
+
+/*--------------------------- OFER SECTION ----------------------------------*/
+
+#oferSection{
+    
+    background-color: coral;
+}
+
+
+/*--------------------------- MAP SECTION ----------------------------------*/
+
+#mapSection{
+    
+    height: 500px;
+    width: 100%;
+    text-align: center;
+    font-size: 30px;
+}
+
+#mapSection h2{
+    font-size: 40px;
+    font-weight: 400;
+}
+#mapLeft{
+    
+    width: 40%;
+    height: 300px;
+    background-color: aliceblue;
+   
+    padding: 0;    
+    float: left;
+}
+
+#mapRight{
+    width: 60%;
+    height: 300px;
+    
+    padding: 0;
+    float: left;
+}
+
+#mapAdresHeader{
+    margin-top: 70px;
+}
+
+/*--------------------------- CONTACT SECTION ----------------------------------*/
+
+
+#contactSection{
+    background-color: chartreuse;
 }
