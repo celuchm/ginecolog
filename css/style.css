@@ -8,15 +8,28 @@ body, html {
 .fullWindowHeight {
     width: 100%;
     margin-top: 0px;
+    margin-top: 0px;
 }
 
-.fullWidth{
 
-    height: 300px;
-}
+
 
 
 /*-------------------------- MENU SECTION ------------------------------*/
+#menu{
+    background-image: url('../img/background.jpg');
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position:center;
+    z-index: -1;
+}
+
+#menuOpacity{
+    width: 100%;
+    height: 100%;
+    z-index: 999;
+    background: rgba(192,192,192,0.8);
+}
 
 .menuContainer {
     height: 200px;
@@ -42,7 +55,7 @@ body, html {
     width: 300px;
     margin: 0 auto;
     height: 150px;
-    background-color: #FFF8DC;
+    background: rgba(255, 153, 204,0.4);
     border: 1px solid black;
     line-height: 150px;
 }
@@ -50,6 +63,7 @@ body, html {
 .menuBoxBox:hover {
     font-weight: 300;
     cursor: pointer;
+    background:  rgba(255, 153, 204,0.8);
 }
 
 .middleWindowHeigh{
@@ -59,16 +73,33 @@ body, html {
 /*--------------------------- OFER SECTION ----------------------------------*/
 
 #oferSection{
-    
+    height: 800px;
     background-color: coral;
 }
 
+#oferSection .container{
+    padding-top: 50px;
+}
+
+
+.aBlock{
+    display: block;
+    
+}
+
+.aBlockDiv{
+    
+    width: 300px;
+    margin: auto;
+    height: 200px;
+    border: 1px solid black;
+}
 
 /*--------------------------- MAP SECTION ----------------------------------*/
 
 #mapSection{
     
-    height: 500px;
+    height: 800px;
     width: 100%;
     text-align: center;
     font-size: 30px;

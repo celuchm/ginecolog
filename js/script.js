@@ -25,7 +25,22 @@ $(document).ready(function() {
         setWindowHeight();
         setMiddleHeight();
     } );
+    
+    $("#menuBoxOfer").click(function() {
+    $('html, body').animate({
+        scrollTop: $("#oferSection").offset().top
+    }, 2000);
+});
+
+$("#menuBoxMap").click(function() {
+    $('html, body').animate({
+        scrollTop: $("#mapSection").offset().top
+    }, 2000);
+});
 } );
+
+
+
 
 
 
