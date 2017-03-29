@@ -8,20 +8,31 @@ h1 {
     font-family: 'Lato', sans-serif;
 }
 
+a {
+    text-decoration: none;
+    color: black !important;
+}
+
+.navbar-default .navbar-brand{
+    color: black !important;
+}
+
 /*-------------------------- NAVIGATION --------------------------------*/
 .navbar{
-    height: 100px;
-    background-color: #FFCCFF;
-    
-    
-    
+    height: 70px;
+    background-color: rgb(248, 220, 225);
+        
+}
+
+.navScroll{
+    color: black !important;
 }
 
 .container-fluid , .container-fluid p{
     
     font-weight: 300;
-    font-size: 50px;
-    line-height: 50px;
+    font-size: 30px;
+    
     
 }
 
@@ -29,21 +40,27 @@ h1 {
     font-weight: 200;
 }
 
-#gabinet{
+.navScroll:hover{
     font-weight: 300;
-    color: darkslateblue;
+     letter-spacing: 0;
 }
+
+
 
 
 
 /*-------------------------- GABINET SECTION ------------------------------*/
 
 #sectionGabinet{
-    margin-top: 100px;
-    padding-top: 150px;
-    padding-bottom: 150px;
+    
+    
+    padding-top: 100px;
     font-size: 20px;
     font-weight: 300;
+    background: url('../img/gabinet.png');
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position:center;
 }
 
 #sectionGabinet p{
@@ -54,6 +71,22 @@ h1 {
     text-align: center;
 }
 
+
+#gabinetMiddle{
+    background-color: rgba(248, 220, 225, 0.8);
+    height: 300px;
+}
+
+#gabData{
+    font-size: 30px;
+    text-align: center;
+    padding-top: 50px;
+}
+
+#gabData {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
 
 
 /*-------------------------- LASER SECTION ------------------------------*/

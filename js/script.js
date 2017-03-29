@@ -3,16 +3,18 @@ function setWindowHeight() {
 
     var classElements = document.getElementsByClassName('fullWindowHeight');
     for( i=0 ; i<classElements.length; i++) {
-      classElements[i].style.height = windowHeight + "px";
+      classElements[i].style.height = windowHeight  + "px";
     }
 };
 
-function setMiddleHeight(){
-    var halfWindowHeight = window.innerHeight/2 - 200;
-    var classElements2 = document.getElementsByClassName('middleWindowHeigh');
-    for( i=0 ; i<classElements2.length; i++){
-        classElements2[i].style.paddingTop = halfWindowHeight + "px";
-    }
+function setHalfHeight(){
+    
+    var sectionGabinetHeight = $('#sectionGabinet').height()/2 - $('#gabinetMiddle').height()/2;
+    
+   
+        $('#gabinetMiddle').css("margin-top", sectionGabinetHeight);
+    
+    
 }
 
 
@@ -20,23 +22,12 @@ function setMiddleHeight(){
 
 $(document).ready(function() {
     setWindowHeight();
-    setMiddleHeight();
+    setHalfHeight();
     $(window).resize(function() {
         setWindowHeight();
-        setMiddleHeight();
+        setHalfHeight();
     } );
-    
-    $("#menuBoxOfer").click(function() {
-    $('html, body').animate({
-        scrollTop: $("#oferSection").offset().top
-    }, 2000);
-});
 
-$("#menuBoxMap").click(function() {
-    $('html, body').animate({
-        scrollTop: $("#mapSection").offset().top
-    }, 2000);
-});
 } );
 
 
